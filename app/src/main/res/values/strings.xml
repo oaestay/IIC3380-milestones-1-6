@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Memeticame</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_group_chat">Create group</string>
+    <string name="signup">Signup</string>
+    <string name="name">Name</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="chat_name">Chat name</string>
+    <string name="sender_label">sender</string>
+    <string name="timestamp_label">timestamp label</string>
+    <string name="me">Me</string>
+    <string name="at">at</string>
+    <string name="chats_shared_with_user">Existing chats with this user:</string>
+    <string name="logout">Logout</string>
+    <string name="add_contact">Add contact</string>
+    <string name="create_chat">Create chat</string>
+    <string name="attachment_name">attachment name</string>
+    <string name="create_group">Create group</string>
+    <string name="group_name">Group Name</string>
+    <string name="participants">Participants</string>
+    <string name="add_participants">Add participants</string>
+    <string name="invitation_to">Invitation to...</string>
+    <string name="admin">Admin</string>
+    <string name="created_at">Created At</string>
+    <string name="unread_count">Unread Count</string>
+    <string name="attachment_size">attachment size</string>
+    <string name="mime_type">mime type</string>
+    <string name="see_downloads_gallery">See downloads gallery</string>
+    <string name="open">open</string>
+    <string name="last_message">last message</string>
+    <string name="select_contacts_to_add">Select contacts to add</string>
+    <string name="create_meme">Create meme</string>
+    <string name="percentage">percentage</string>
+    <string name="see_memes_gallery">See memes gallery</string>
+    <string name="attachment_mime_type">Mime Type</string>
+    <string name="channels">Channels</string>
+    <string name="emojime">Emojime</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_audio_image_viewer">AudioImageViewerActivity</string>
+</resources>

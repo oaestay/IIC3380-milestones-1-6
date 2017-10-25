@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="message_well_padding">8dp</dimen>
+    <dimen name="message_well_margin">8dp</dimen>
+    <dimen name="separator_margin">16dp</dimen>
+    <dimen name="list_item_icon_size">80dp</dimen>
+    <dimen name="attachment_button_size">48dp</dimen>
+    <dimen name="attachment_button_padding">2dp</dimen>
+    <dimen name="list_item_margin">8dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="input_message_size">48dp</dimen>
+    <dimen name="input_message_button_size">48dp</dimen>
+    <dimen name="input_message_button_padding">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

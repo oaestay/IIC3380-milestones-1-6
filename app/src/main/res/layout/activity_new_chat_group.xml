@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.salatart.memeticame.Activities.NewChatGroupActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/group_name_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/group_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/group_name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/submit_new_chat"
+        android:layout_marginBottom="@dimen/separator_margin"
+        android:layout_marginTop="@dimen/separator_margin"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/label_choose_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/separator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/separator_margin"
+        android:text="@string/select_contacts_to_add"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/contacts_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/label_choose_contacts" />
+
+    <Button
+        android:id="@+id/submit_new_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_name_input_layout"
+        android:onClick="createGroup"
+        android:text="@string/create_group" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loading_contacts"
+        style="@style/AVLoadingIndicatorView.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        app:indicatorColor="@color/colorPrimary"
+        app:indicatorName="BallGridPulseIndicator" />
+</RelativeLayout>

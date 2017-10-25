@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="colorAccent">#009688</color>
+    <color name="transparent">#00000000</color>
+    <color name="iconBackground">#E0F2F1</color>
+    <color name="colorBlack">#000000</color>
+    <color name="outWellColor">#B2DFDB</color>
+    <color name="inWellColor">#1DE9B6</color>
+
+    <array name="material_colors">
+        <item>#FFFFFF</item>
+        <item>#F44336</item>
+        <item>#9C27B0</item>
+        <item>#3F51B5</item>
+        <item>#03A9F4</item>
+        <item>#009688</item>
+        <item>#8BC34A</item>
+        <item>#FFEB3B</item>
+        <item>#FF9800</item>
+        <item>#795548</item>
+        <item>#607D8B</item>
+        <item>#000000</item>
+    </array>
+</resources>

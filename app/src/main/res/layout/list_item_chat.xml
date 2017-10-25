@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_icon_size"
+    android:layout_margin="@dimen/list_item_margin"
+    android:orientation="horizontal"
+    android:padding="@dimen/list_item_padding">
+
+    <ImageView
+        android:id="@+id/chat_icon"
+        android:layout_width="@dimen/list_item_icon_size"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/list_item_margin"
+        android:background="@color/iconBackground"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <LinearLayout
+        android:id="@+id/group_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_created_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/created_at"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_date_range_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/admin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_star_black_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_unread_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorAccent"
+        android:paddingEnd="4dp"
+        android:paddingStart="4dp"
+        android:text="@string/unread_count"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/textColorPrimary" />
+
+    <TextView
+        android:id="@+id/label_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/chat_icon"
+        android:layout_toStartOf="@id/group_created_at"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/label_last_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/chat_icon"
+        android:layout_toStartOf="@id/label_unread_count"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/last_message"
+        android:textStyle="italic" />
+</RelativeLayout>
